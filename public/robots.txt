@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.geonutrition.com.ng
+
+# Sitemaps
+Sitemap: https://www.geonutrition.com.ng/sitemap.xml

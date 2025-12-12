@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-module.exports = {
+const config = {
   siteUrl: "https://www.geonutrition.com.ng", // change to your live domain
   generateRobotsTxt: true,
   sitemapSize: 7000,
@@ -18,4 +18,6 @@ module.exports = {
       "https://www.geonutrition.com.ng/sitemap.xml",
     ],
   },
-};
+}
+
+export default config
