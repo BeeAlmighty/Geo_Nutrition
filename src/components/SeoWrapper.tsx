@@ -11,11 +11,9 @@ interface SEOWrapperProps {
 
 export default function SEOWrapper({
   children,
-  title,
   description,
   canonical,
   ogImage = '/images/og-default.jpg',
-  noindex = false,
 }: SEOWrapperProps) {
   // The actual SEO meta tags are handled by Next.js metadata API in page.tsx
   // This component is a wrapper for consistent structure and future enhancements

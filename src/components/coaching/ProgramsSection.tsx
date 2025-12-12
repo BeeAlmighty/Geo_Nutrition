@@ -9,10 +9,6 @@ export default function ProgramsSection() {
 	const [activeTab, setActiveTab] = useState<'12-week' | 'monthly-plan'>(
 		'12-week'
 	);
-
-	const selectedProgram =
-		activeTab === '12-week' ? programs[0] : programs[1];
-
 	return (
 		<section
 			id="programs"

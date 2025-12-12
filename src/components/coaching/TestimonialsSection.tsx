@@ -44,10 +44,6 @@ const testimonials: Testimonial[] = [
 ];
 
 export default function TestimonialsSection() {
-	interface Testimonial {
-		image: string;
-		name: string;
-	}
 	const [hasError, setHasError] = useState(false);
 
 	return (
