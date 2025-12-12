@@ -152,7 +152,7 @@ export const products: Product[] = [
 		name: 'Applied Nutrition Creatine 250g',
 		price: 45000,
 		discountPrice: 40000,
-		image: '/images/products/AN-creatine.jpg',
+		image: '/images/products/AN-creatine-blue.jpg',
 		description:
 			'Pharmaceutical-grade creatine monohydrate for muscle strength and performance',
 		longDescription:
